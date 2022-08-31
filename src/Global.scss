@@ -1,0 +1,44 @@
+
+/* -----------Specification------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Museo Sans 300', Geneva, sans-serif;
+  font-size: 15px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+div, p, form, input, button, a, span {
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+  font-family: 'Museo Sans 300';
+}
+input, input:hover, input:focus, input:active, button, button:hover, button:focus, button:active {
+  outline: none;
+}
+button {
+  padding: 0;
+}
+a, a:hover, a:active {
+  text-decoration: none;
+}
+a, button, input {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Natasha';
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}

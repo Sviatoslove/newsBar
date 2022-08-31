@@ -1,0 +1,36 @@
+.news {
+ 
+}
+.news__block {
+ padding: 140px 0;
+ &.Politics {
+  background: url(../../image/Politics.jpg) no-repeat center center / cover;
+ }
+ &.Sport {
+  background: url(../../image/Sport.jpg) no-repeat center center / cover;
+ } 
+ &.Games {
+  background: url(../../image/Games.jpg) no-repeat center center / cover;
+ }
+ &.Hobby {
+  background: url(../../image/Hobby.jpg) no-repeat center center / cover;
+ }
+ &.Advertising {
+  background: url(../../image/Advertising.jpg) no-repeat center center / cover;
+ }
+}
+.news__block__background {
+ background-color: rgba($color: #fff, $alpha: 0.5);
+ width: fit-content;
+ margin: 0 auto;
+ border-radius: 10px;
+ padding: 10px;
+}
+.news__block__ttle {
+ margin-bottom: 10px;
+}
+.news__block__item {
+ margin-bottom: 10px;
+ font-weight: bold;
+ font-size: 20px;
+}

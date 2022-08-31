@@ -1,0 +1,30 @@
+.buttons__wrap {
+ display: flex;
+ justify-content: space-evenly;
+ background: linear-gradient(167deg, #d2bd92,#ddcaa0,#f8f3e0,#fefdf9);
+ padding: 50px;
+}
+.button__item {
+ min-width: 130px;
+ width: 100%;
+ display: grid;
+ padding: 0 5px;
+ height: 40px;
+ align-items: center;
+ justify-content: center;
+ font-weight: bold;
+ border-radius: 20px;
+ border: 1px solid #000;
+ box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.6);
+ background-color: rgba(159, 188, 213, 0.8);
+ &:hover {
+  transform: scale(1.05);
+  background: -webkit-linear-gradient(167deg, #d2bd92,#ddcaa0,#f8f3e0,#fefdf9);
+ }
+ &:active {
+  color: aqua;
+  border: solid aqua;
+  transition: 0.1s;
+  transform: scale(0.95);
+ }
+}
